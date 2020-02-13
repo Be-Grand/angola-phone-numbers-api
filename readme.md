@@ -2,12 +2,12 @@
 
 ## Angola Phone Numbers Api
 
-APNA is an Angolan API created to help developers obtain information such as which operator, to whom it belongs and which ticket number a phone number is associated with for validations at the time of registration.
+APNA is an Angolan API created to help developers get information such as which operator, to whom it belongs and what is the ID Card number in which a phone number is associated with for validations at the time of registration.
 
 
 ## What can you do with APNA?
 
-Receive information from an Angolan phone number before registering on your system, compare it to the data entered or simply save your user's time by completing the fields with information from our API.
+Receive information from an Angolan phone numbers before registering on your system, compare it to the data entered or simply save your user's time by completing the fields with information from our API avoid users to insert fake datas.
 
 [Click here to see this example with the phone number of one of our developers](https://angola-pna.herokuapp.com/api/get-info/244927562797)
 
