@@ -66,8 +66,8 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Inicio</a></li>
-                <li><a href="#courses-section" class="nav-link">Sobre</a></li>
-                <li><a href="#programs-section" class="nav-link">Team</a></li>
+                <li><a href="#about-section" class="nav-link">Sobre</a></li>
+                <li><a href="#team-sectionn" class="nav-link">Team</a></li>
                 <li><a href="https://github.com/Be-Grand/angola-phone-numbers-api" class="nav-link">GitHub</a></li>
               </ul>
             </nav>
@@ -76,7 +76,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>Fazer doação</span></a></li>
+                <li class="cta"><a href="#donation-section" class="nav-link"><span>Fazer doação</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
@@ -207,7 +207,7 @@
     </div>
 
 
-    <div class="site-section courses-title" id="courses-section">
+    <div class="site-section courses-title" id="about-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
@@ -226,7 +226,7 @@
 
 
 
-    <div class="site-section" id="programs-section">
+    <div class="site-section" id="team-sectionn">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
@@ -239,7 +239,7 @@
       </div>
     </div>
 
-    <footer class="site-section bg-light" id="contact-section">
+    <footer class="site-section bg-light" id="donation-section">
       <div class="container">
 
         <div class="row justify-content-center">
