@@ -126,7 +126,7 @@
                     <div class="row">
                       <div class="col-12 col-md-6">
                         <div class="form-group">
-                          <input type="date" required name="birth_date" class="form-control"
+                          <input type="text" onfocus="(this.type='date')" required name="birth_date" class="form-control"
                             placeholder="Data de nascimento">
                             {!! $errors->first('birth_date', '<p class="text-danger">:message</p>') !!}
                         </div>
@@ -186,7 +186,7 @@
                       </div>
                       <div class="col-12 col-md-6">
                         <div class="form-group mb-4">
-                          <input type="text" name="number" class="form-control" placeholder="Númmero de telefone">
+                          <input type="text" name="number" class="form-control" placeholder="Número de telefone">
                           {!! $errors->first('number', '<p class="text-danger">:message</p>') !!}
                         </div>
                       </div>
