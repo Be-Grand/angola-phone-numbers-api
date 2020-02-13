@@ -36,6 +36,6 @@ You can always contribute for the improvment of this project, send an email to j
 
 ## Donation
 
-If you think is project can be usefull, donate to mativate the team on keep working on it. [Click here to donate](https://angola-pna.herokuapp.com/#donate)
+If you think is project can be usefull, donate to mativate the team on keep working on it. [Click here to donate](https://angola-pna.herokuapp.com/#donation-section)
 
 
