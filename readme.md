@@ -1,72 +1,41 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
+## Angola Phone Numbers Api
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+APNA is an Angolan API created to help developers obtain information such as which operator, to whom it belongs and which ticket number a phone number is associated with for validations at the time of registration.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## What can you do with APNA?
 
-## Learning Laravel
+Receive information from an Angolan phone number before registering on your system, compare it to the data entered or simply save your user's time by completing the fields with information from our API.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+[Click here to see this example with the phone number of one of our developers](https://angola-pna.herokuapp.com/api/get-info/244927562797)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The existing phone numbers at APNA are entered manually on the [APNA website](https://angola-pna.herokuapp.com/). APNA's objective is to grow and consume data directly from Angolan operators such as Unitel, Movicel, Angola Telecom and Tv Cabo, in order to provide information associated with a telephone number to public and private institutions, in order to assist in verification, time saving and better user experience.
 
-## Laravel Sponsors
+### Available information associated with a phone number
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+| Variable       | Value  | Exemple    | Description   |
+| ---            | ---    | ---        | ---           |
+| name           | Full name  |Ravelino de Castro| Requireed field in the registration process on the website and itul for organizations in which they plan to join the API |
+| bi  | ID card number| 004758993LA045  | Optional field, it is one of the allowed document used to register a phone number |
+| nif  | Taxpayer number | 004758993LA045 | Optional field, it is one of the allowed document used to register a phone number |
+| passport  | Passport number | N2044977| Optional field, it is one of the allowed document used to register a phone number |
+| residence_card  | Residence card | xxx-xx-xx   |Optional field, it is one of the allowed document used to register a phone number |
+| email  | E-mail | ravelinodecastro@gmail.com  | This info can be updated |
+| operator  | Operator | Tv Cabo  | It's an object which contains the name of operator and the type, if it is mobile or fixed  |
+| status  | Status | 1 for for active and 0 for disable  | This inform if the number is being used or blocked |
+| address  | Address | Luanda, Av. 21 de Janeiro - Morro Bento  | This info can be updated  |
+| gender  | Gender | 0 for male, 1 for female and 2 for companies or organizations  | This is a very important field |
+| birth_date  | Birthday | 03-05-1999  | Also another important field  |
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+You can always contribute for the improvment of this project, send an email to join this project.
 
-## Security Vulnerabilities
+## Donation
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you think is project can be usefull, donate to mativate the team on keep working on it. [Click here to donate](https://angola-pna.herokuapp.com/#donate)
 
-## License
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
