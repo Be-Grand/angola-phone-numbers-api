@@ -5,22 +5,19 @@
   <title>Angola Phone Numbers Api - APNA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="APNA é uma API angolana criada para ajudar os
-  desenvolvedores conseguirem informações como de qual operadora, a quem pertence e qual número de
-  bilhete um número de telefone está associado para as validações no momento de cadastro.">
+  <meta name="description"content="APNA é uma API angolana criada para ajudar os
+                    desenvolvedores a conseguirem informações associadas a um número de telefone tal como o nome completo, a data de nascimento, a morada, o nº do bilhete de identidade, a operadora afim de poupar o tempo dos seus utilizadores e prevenir a inserção de dados errados ou falsos durante o cadastro.">
   <meta name="keywords" content="Angola, Número de Telefone, API, Validação, Informações, Desenvolvimento">
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
   <meta property="og:title" content="Angola Phone Numbers Api - APNA">
   <meta property="og:description" content="APNA é uma API angolana criada para ajudar os
-  desenvolvedores conseguirem informações como de qual operadora, a quem pertence e qual número de
-  bilhete um número de telefone está associado para as validações no momento de cadastro.">
+                    desenvolvedores a conseguirem informações associadas a um número de telefone tal como o nome completo, a data de nascimento, a morada, o nº do bilhete de identidade, a operadora afim de poupar o tempo dos seus utilizadores e prevenir a inserção de dados errados ou falsos durante o cadastro.">
   <meta property="og:url" content="{{url('')}}">
   <meta property="og:image" content="/images/background.jpg">
   <meta property="og:image:secure_url" content="/images/background.jpg">
   <meta data-hid="twitter:title" name="twitter:title" content="Angola Phone Numbers Api - APNA">
-  <meta data-hid="twitter:description" name="twitter:description" content="APNA é uma API angolana criada para ajudar os
-  desenvolvedores conseguirem informações como de qual operadora, a quem pertence e qual número de
-  bilhete um número de telefone está associado para as validações no momento de cadastro.">
+  <meta data-hid="twitter:description" name="twitter:description" content=content="APNA é uma API angolana criada para ajudar os
+                    desenvolvedores a conseguirem informações associadas a um número de telefone tal como o nome completo, a data de nascimento, a morada, o nº do bilhete de identidade, a operadora afim de poupar o tempo dos seus utilizadores e prevenir a inserção de dados errados ou falsos durante o cadastro.">
   <meta data-hid="twitter:image" name="twitter:image"
     content="/images/background.jpg">
   <meta name="theme-color" content="#08c">
@@ -97,8 +94,7 @@
                 <div class="col-lg-6">
                   <h1 data-aos="fade-up" data-aos-delay="100">Angola Phone Numbers Api</h1>
                   <p class="mb-4" data-aos="fade-up" data-aos-delay="200">É uma API angolana criada para ajudar os
-                    desenvolvedores conseguirem informações como de qual operadora, a quem pertence e qual número de
-                    bilhete um número de telefone está associado para as validações no momento de cadastro.</p>
+                    desenvolvedores a conseguirem informações associadas a um número de telefone tal como o nome completo, a data de nascimento, a morada, o nº do bilhete de identidade, a operadora afim de poupar o tempo dos seus utilizadores e prevenir a inserção de dados errados ou falsos durante o cadastro.</p>
                   <p data-aos="fade-up" data-aos-delay="300"><a
                       href="https://github.com/Be-Grand/angola-phone-numbers-api"
                       class="btn btn-primary py-3 px-5 btn-pill">Documentação</a></p>
