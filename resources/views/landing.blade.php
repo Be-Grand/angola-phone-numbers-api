@@ -122,7 +122,9 @@
                     <div class="row">
                       <div class="col-12 col-md-6">
                         <div class="form-group">
-                          <input type="text" onfocus="(this.type='date')" required name="birth_date" class="form-control"
+                          <input type="text" 
+                          onfocusout="(this.value?this.type='date':this.type='text')"
+                          onfocus="(this.type='date')" required name="birth_date" class="form-control"
                             placeholder="Data de nascimento">
                             {!! $errors->first('birth_date', '<p class="text-danger">:message</p>') !!}
                         </div>
@@ -130,7 +132,7 @@
                       <div class="col-12 col-md-6">
                         <div class="form-group">
                           <select required class="form-control" name="gender">
-                          <option selected>Genéro</option>
+                          <option selected>Gênero</option>
                             <option value="0">Masculino</option>
                             <option value="1">Femenino</option>
                             <option value="2">Empresa / Organização</option>
@@ -159,6 +161,10 @@
                         <div class="form-group">
                           <input type="text" name="doc_no" class="form-control" placeholder="Número do documento">
                           {!! $errors->first('doc_no', '<p class="text-danger">:message</p>') !!}
+                          {!! $errors->first('bi', '<p class="text-danger">:message</p>') !!}
+                          {!! $errors->first('nif', '<p class="text-danger">:message</p>') !!}
+                          {!! $errors->first('passport', '<p class="text-danger">:message</p>') !!}
+                          {!! $errors->first('residence_card', '<p class="text-danger">:message</p>') !!}
                         </div>
                       </div>
                     </div>
@@ -208,12 +214,10 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Sobre</h2>
-            <p class="text-white">APNA que significa Angola Phone Number API, é uma API Angolana criada por Be Grand,
+            <p class="text-white">APNA que significa Angola Phone Number API, é uma API Angolana criada pelo Be Grand,
               uma
-              equipa de desenvolvimento de softwares, cujo a finalidade é ajudar o processo de validação de cadastros
-              nos outros sistemas, fornecendo informações como nome completo e número de documento de identificação a
-              partir
-              do processo de cadastro.
+              equipa de desenvolvimento de softwares, cuja a finalidade é ajudar o processo de validação de cadastros
+              em outros sistemas, fornecendo informações  como o nome completo e o número do documento de identificação, facilitando assim este processo, poupando tempo do utilizador e prevenir-se de utilizadores cadastrados com informações falsas.
             </p>
           </div>
         </div>
@@ -227,8 +231,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Team</h2>
-            <p>O team Be Grand está composto por programadores front-end, back-end e UI e UX designers na qual prestam
-              serviços de desenvolvimento web e mobile em todo mundo.
+            <p>O team Be Grand está composto por programadores front-end, back-end e UI e UX designers prestadores de serviços de desenvolvimento web e mobile em todo mundo.
             </p>
           </div>
         </div>
@@ -241,7 +244,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 text-center">
             <h2 class="section-title ">Fazer doação</h2>
-            <p class="mb-5">Pode fazer doação fazendo uma transferência bancária ou no Paypal.</p>
+            <p class="mb-5">Pode fazer doações  a partir de uma transferência bancária ou no Paypal..</p>
             <h5 class="text-center">Titular das contas: <b>Ravelino de Castro</b></h5>
             <hr>
             <div class="row mb-5">
