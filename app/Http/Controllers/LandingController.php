@@ -161,6 +161,7 @@ class LandingController extends Controller
                     'number'=> $this->validatePhone($request->number, false),
                     'operator_id'=> $request->operator_id,
                     'customer_id'=> $customer->id,
+                    'status'=>'1',
                 ]);
                 DB::commit();
                 try{ 
