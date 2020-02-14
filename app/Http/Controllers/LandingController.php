@@ -88,6 +88,7 @@ class LandingController extends Controller
                 'number'=> $request->number,
                 'operator_id'=> $request->operator_id,
                 'customer_id'=> $customer->id,
+                'status'=>'1',
             ]);
             try{ 
                 Mail::send('email',
