@@ -45,7 +45,6 @@ fetch(`https://angola-pna.herokuapp.com/api/get-info/${phone}`, {
 ```
 
 ---
----
 
 ## Usage (Php)
 
