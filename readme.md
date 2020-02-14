@@ -20,10 +20,6 @@ This functionality is available on the landing page and it will last as long as 
 
 You can associate two phone numbers with the same customer, just enter the same data as in the previous registration and change only the phone number. You can update your email or address, inserting the same data in one of the registrations and changing only the desired fields, you can likewise add the passport number, taxpayer card, residence card, repeating the registration process, changing just the type and number of the document.
 
-[Click here to see this example with the phone number of one of our developers](https://angola-pna.herokuapp.com/api/get-info/244927562797)
-
-The existing phone numbers at APNA are entered manually on the [APNA website](https://angola-pna.herokuapp.com/). APNA's objective is to grow and consume data directly from Angolan operators such as Unitel, Movicel, Angola Telecom and Tv Cabo, in order to provide information associated with a phone number to public or private institutions, in order to help them getting their users information or save their users's time and giving a better experience.
-
 ---
 
 ## Usage (Javascript)
