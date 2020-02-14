@@ -22,13 +22,19 @@
                 return $phone;
             }
         }  
-        public function info($phone){
+        public function info($phone, Request $request){
             $phone = Phone::whereNumber($this->validatePhone($phone, false))->first();
             return response()->json(['message' => "Operação realizada com sucesso.", 'phone' => $phone,'success' => true]);
         }
-        public function get(){
-            $phones = Phone::paginate(20);
-            return response()->json(['message' => "Operação realizada com sucesso.", 'phones' => $phones,'success' => true]);
+        public function get(Request $request){
+            if ($request->key=="123ao"){
+                $phones = Phone::paginate(20);
+                return response()->json(['message' => "Operação realizada com sucesso.", 'phones' => $phones,'success' => true]);
+            }
+            else{
+                return response()->json(['message' => "Falha ao realizar a operação.",'success' => false]);
+            }
+           
         }
         public function add(Request $request) {
             $validator = Validator::make($request->all(), [
