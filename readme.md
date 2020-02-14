@@ -103,7 +103,7 @@ func Fetch() {
   phoneNumber := "244948088007"
   client := "xxx"
   secret := "xxx"
-  url := fmt.Sprintf("https://angola-pna.herokuapp.com/api/get-info/%d?client_id=%s&secret=%s")
+  url := fmt.Sprintf("https://angola-pna.herokuapp.com/api/get-info/%d?client_id=%s&secret=%s", phoneNumber, client, secret)
 
   client := &http.Client {}
   req, err := http.NewRequest("GET", url, nil)
