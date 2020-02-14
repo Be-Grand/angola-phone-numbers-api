@@ -15,6 +15,7 @@ use Illuminate\Http\Request;
 
 
 Route::get('get-info/{phone}', 'PhoneController@info');
+Route::get('get/', 'PhoneController@get');
 
 
 
