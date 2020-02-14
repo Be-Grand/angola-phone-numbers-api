@@ -54,7 +54,7 @@ fetch(`https://angola-pna.herokuapp.com/api/get-info/${phone}`, {
 ## Usage (Php)
 
 ```php
- $phone = '244927562797';
+$phone = '244927562797';
 $url ='https://angola-pna.herokuapp.com/api/get-info/'.$phone;
 $id= "xxx"; //not requied yet
 $secret="xxx"; //not requied yet
@@ -75,8 +75,8 @@ echo $response;
 
 ```python
 phone = '244927562797'
-key= "xxx"; #not requied yet
-secret="xxx"; #not requied yet
+key= 'xxx' #not requied yet
+secret= 'xxx' #not requied yet
 response = requests.get('https://angola-pna.herokuapp.com/api/get-info/${phone}?client_id=${key}&secret=${secret}')
 print(response)
 ```
