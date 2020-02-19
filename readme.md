@@ -90,6 +90,36 @@ Future<http.Response> fetchPhone() {
 ```
 
 ---
+## Usage (Go)
+
+```Go
+import (
+  "fmt"
+  "net/http"
+  "io/ioutil"
+)
+
+func Fetch() {
+  phoneNumber := "244948088007"
+  client := "xxx"
+  secret := "xxx"
+  url := fmt.Sprintf("https://angola-pna.herokuapp.com/api/get-info/%d?client_id=%s&secret=%s", phoneNumber, client, secret)
+
+  client := &http.Client {}
+  req, err := http.NewRequest("GET", url, nil)
+
+  if err != nil {
+    fmt.Println(err)
+  }
+  res, err := client.Do(req)
+  defer res.Body.Close()
+  body, err := ioutil.ReadAll(res.Body)
+
+  fmt.Println(string(body))
+}
+```
+
+---
 
 ### Available information associated with a phone number
 
